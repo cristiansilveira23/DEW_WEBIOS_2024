@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <!--formularios-->
+    <h2>Pacotes de viagem</h2>
+    
+    <form action="./inscricao.html">
+        <fieldset> 
+            <legend>informações sobre o usuario</legend>
+            <label> Nome <br> </label>
+            <input type="text"> <br> 
+            <label> Idade <br></label>
+            <input type="number"> <br>
+            <label> E-mail <br></label>
+            <input type="text"> <br> 
+            <label> Telefone <br></label>
+            <input type="number"> <br> </fieldset>
+       
+       
+        <input type="radio" name="ida">
+        <label>Ida e volta </label> <br>
+
+        <input type="radio" name="ida"> 
+        <label> Somente ida </label><br> 
+
+        <h3> Quais serviços deseja contratar </h3>
+
+        <input type="checkbox">
+        <label> Compras de passagens</label><br>
+        <input type="checkbox">
+        <label> Reservas de hospedagem </label> <br>
+        <input type="checkbox">
+        <label>Reservas de veiculos </label>
+
+
+        <h3> Quantidade de crianças </h3>
+        1
+        <input type="range">
+        10
+        <br>
+        <h3>Aeroporto</h3>
+       
+ 
+        <select>
+            <option value= ""></option>
+            <option value= "Gru- guarulhos "> Gru - guarulhos</option>
+            <option value=" Congonhas"> Congonhas</option>
+            <option value=" Aeroporto Iternacional de Viracopos">Aeroporto Iternacional de Viracopos</option>
+            <option value=" Santos Dumont"> Santos  Dumont</option>
+            <option value=" Aeroporto do campo de marte"> Aeroporto do Campo de Marte</option>
+            
+        </select>
+        
+        <input type="text" list="cidades">
+
+        <datalist id="cidades">
+            <option value=" São Paulo "></option>
+            <option value="Amapá"></option>
+            <option value="Tocantins"></option>
+            <option value="Sergipe"></option>
+            <option value="Rio grande do sul"></option>
+            <option value="Rio de janeiro"></option>
+            <option value="Rio grande do norte"></option>
+            <option value="Bahia"></option>
+            <option value="Paraíba"></option>
+            <option value="Roraima"></option>
+            <option value="Amazonas"></option>
+
+        </datalist>
+
+        
+       <br> <label>Deixe suas observações</label><br>
+        <textarea cols="30" rows="10"></textarea>
+        <input type="submit" value="inscricao">
+
+</body>
+</html>
