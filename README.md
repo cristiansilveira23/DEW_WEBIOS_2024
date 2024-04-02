@@ -2,7 +2,7 @@
 
 ### Cristian Silveira
 
-estou no curso da Ios para ter um futuro bom e vira um programador .
+estou no curso da Ios para ter um futuro bom, e vira um programador .
 
 ### meu primriro codigo
  ```
