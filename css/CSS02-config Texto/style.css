@@ -1,0 +1,17 @@
+body{
+ background-color: rgb(78, 48, 48);
+ background-color: #080d0d;
+ font-family: "IBM Plex Sans", sans-serif;
+}
+h1{
+    font-family: "IBM Plex Sans", sans-serif;
+    color: aliceblue;
+    font-size: 50px;
+}
+p{
+    color: aliceblue;
+}
+img{
+    height: 500px;
+    width:  500px;
+}
