@@ -1,0 +1,14 @@
+*{
+   margin: 0%;
+   text-align: center;
+} 
+body{
+    background-color: darkgray;
+}
+
+.corRed{
+    color: red;
+}
+#mundancaUnica{
+    color: darkblue;
+}
