@@ -1,0 +1,12 @@
+img{
+    
+    width: 400px
+}
+#paragrafo1{
+    width: 100px;
+    float: left;
+}
+#paragrafo2{
+    width: 100px;
+    float: right;
+}
