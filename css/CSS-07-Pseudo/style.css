@@ -1,0 +1,11 @@
+div:first-child{
+    border: 2px solid black;
+    background-color: rgb(233, 218, 6);
+}
+p:last-child{
+    background-color: rgb(241, 15, 174);
+
+}
+p:nth-child(2){
+    background-color: blueviolet;
+}
