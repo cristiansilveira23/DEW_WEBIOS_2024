@@ -1,4 +1,29 @@
 #container{
     display: grid;
-    grid-template-columns: repeat(9, 1fr)
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 10px;
+    grid-template-areas: "header header header header" "main main . sidebar"   "footer footer footer footer";
+    column-gap: 10px;
+
+    
+}
+
+/* .itens{
+    
+    border: solid 2px black;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+} */
+#item-1{
+    grid-area: header;
+}
+#item-2{
+    grid-area: main;
+}
+#item-3{
+    grid-area: sidebar;
+}
+#item-4{
+    grid-area: footer;
 }
