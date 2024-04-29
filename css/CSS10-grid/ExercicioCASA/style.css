@@ -1,0 +1,75 @@
+*{
+    margin-left: 2px;
+    margin-right: 5px;
+    background-color: #a3d1ff;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 25fr);
+    grid-template-rows: repeat(6, 65fr);
+    grid-template-areas: "item-1 item-1 item-2 item-2" "item-3 item-3 item-3 item-3" "item-4 item-4 item-4 item-4" ". item-5 item-5 ." "item-6 item-6 item-6 item-6" "item-7 item-7 item-8 item-9";
+    row-gap: 15px;
+    column-gap: 5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.itens{
+    border: 3px solid black;
+}
+
+#item-1{
+    grid-area: item-1;
+    background-color: rgb(168, 157, 51);
+    color: white;
+}
+
+#item-2{
+    grid-area: item-2;
+    background-color: rgb(255, 115, 0);
+    color: white;
+}
+
+#item-3{
+    grid-area: item-3;
+    background-color: rgb(250, 182, 37);
+    color: white;
+}
+
+#item-4{
+    grid-area: item-4;
+    background-color: rgb(182, 141, 6);
+    color: white;
+}
+
+#item-5{
+    grid-area: item-5;
+    background-color: rgb(136, 116, 3);
+    color: white;
+}
+
+#item-6{
+    grid-area: item-6;
+    background-color: rgb(189, 180, 100);
+    color: white;
+}
+
+#item-7{
+    grid-area: item-7;
+    background-color: rgb(175, 209, 23);
+    color: white;
+}
+
+#item-8{
+    grid-area: item-8;
+    background-color: rgb(170, 182, 11);
+    color: white;
+}
+
+#item-9{
+    grid-area: item-9;
+    background-color: rgb(230, 82, 14);
+    color: white;
+}
