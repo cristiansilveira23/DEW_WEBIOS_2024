@@ -61,5 +61,5 @@ var texto7 = "           Olha a Carreta Furacão               "
 console.log(texto7)
 
 console.log(texto7.trim(
-    
-))
+    '
+)
