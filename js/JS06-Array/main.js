@@ -105,6 +105,13 @@ console.clear()
 
 var insereNoinicio = [true, 34, "Mano Scorro", "JS"]
 
-var mudar7 = insereNoinicio.unshift("Nice")
-console.log(mudar7)
+// var mudar7 = insereNoinicio.unshift("Nice")
+// console.log(mudar7)
+// console.log(insereNoinicio)
+
+delete insereNoinicio[2]
+
 console.log(insereNoinicio)
+
+// console.clear()
+
