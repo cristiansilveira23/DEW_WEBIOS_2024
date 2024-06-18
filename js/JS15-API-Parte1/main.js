@@ -22,3 +22,9 @@ function getImage(e) {
     document.querySelector('#imagem_aqui').innerHTML = imagem;
     });
     }
+
+    // Fecth = Usa API com o metodo fecth
+// {"message":"http://imagens.dog.ceo/Breeds/dachshund puuppy-1006024_640.jpg", "status": "success"}
+// Stringf >> pega um jnso e transforma em um objeto
+// JSON >> transforma um objeto em formato de JSON
+//    fetch(url).then(recebe o JSON).then(tratar o JSON e mostrar as informações em tela para o usuario).catch(catch é para tratar erros retornados pela api)
